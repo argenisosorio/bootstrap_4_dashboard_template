@@ -1,0 +1,27 @@
+.sidebar-light {
+  background: #FAFAFA !important;
+  border-right: 1px solid lightgray;
+}
+.container-fluid {
+  background: #FAFAFA;
+}
+.bg-white-border {
+  border-bottom: 1px solid #eaecf4;
+}
+.btn-link {
+  font-weight: 400;
+  color: lightgray;
+  text-decoration: none;
+}
+.btn-link:hover {
+  color: gray;
+  text-decoration: underline;
+}
+.btn-link:focus, .btn-link.focus {
+  text-decoration: underline;
+  box-shadow: none;
+}
+.btn-link:disabled, .btn-link.disabled {
+  color: gray;
+  pointer-events: none;
+}
